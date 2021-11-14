@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;800&family=Bree+Serif&family=Exo+2:wght@800&family=IBM+Plex+Sans+Arabic&family=Libre+Baskerville:wght@700&family=Mohave&family=Montserrat:wght@500&family=Potta+One&family=Roboto+Slab:wght@900&family=Ubuntu&family=Varela+Round&family=Zen+Kaku+Gothic+New:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vw;
+    background-color: rgb(156, 71, 38);
+    font-size: 2.5vw;
+}
+
+.logo img{
+    height: 4.5vw;
+    padding: 0 1vw;
+}
+
+.header{
+    color: white;
+    font-family: 'Potta One', cursive;
+}
+
+.container {
+    /* background-color: red; */
+    padding: 7vw;
+    width: fit-content;
+    margin: auto;
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border: 2px solid white !important;
+    border-radius: 1cm !important;
+    padding: 2px 5px !important;
+}
